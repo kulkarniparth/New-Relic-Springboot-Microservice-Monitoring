@@ -1,0 +1,63 @@
+plugins {
+	id 'org.springframework.boot' version '2.7.1'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'java'
+
+	id 'com.google.cloud.tools.jib' version '3.2.1'
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-actuator'
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'com.newrelic.telemetry:micrometer-registry-new-relic:0.8.0'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
+
+jib {
+	from {
+		image = 'azul/zulu-openjdk:11-jre'
+	}
+	to {
+		image 'registry.hub.docker.com/parthkulkarni998/nr-demo:0.0.9'
+		auth {
+			username = "parthkulkarni998"
+			password = "Yash@1234"
+		}
+	}
+	container {
+		jvmFlags = ['-javaagent:/extras/newrelic/newrelic.jar']
+		mainClass = 'com.example.nr.demo.NrDemoApplication'
+		creationTime = 'USE_CURRENT_TIMESTAMP'
+		ports = ['8080/tcp']
+		format = 'Docker'
+	}
+	extraDirectories {
+		paths {
+			path {
+				from = 'D:\\parth\\java-projects\\nr-demo\\src\\main\\java\\com\\example\\nr\\demo\\newrelic'
+				into = '/extras/newrelic'
+			}
+		}
+	}
+}

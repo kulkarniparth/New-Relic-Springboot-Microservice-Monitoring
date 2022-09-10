@@ -1,0 +1,236 @@
+2022-09-01T17:06:56,724+0530 [7048 1] com.newrelic INFO: Writing to New Relic log file: D:\parth\java-projects\nr-demo\src\main\java\com\example\nr\demo\newrelic\logs\newrelic_agent.log
+2022-09-01T17:06:56,726+0530 [7048 1] com.newrelic INFO: JRE vendor OpenLogic version 11.0.15
+2022-09-01T17:06:56,726+0530 [7048 1] com.newrelic INFO: JVM vendor OpenLogic OpenJDK 64-Bit Server VM version 11.0.15+10-adhoc..jdk11u
+2022-09-01T17:06:56,726+0530 [7048 1] com.newrelic INFO: OS Windows 10 version 10.0 arch amd64
+2022-09-01T17:06:56,727+0530 [7048 1] com.newrelic INFO: Agent Host: DESKTOP-N47AVTT IP: 192.168.59.1
+2022-09-01T17:06:56,727+0530 [7048 1] com.newrelic INFO: New Relic Agent v7.8.0 is initializing...
+2022-09-01T17:07:00,014+0530 [7048 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2022-09-01T17:07:11,436+0530 [7048 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.eu01.nr-data.net:443
+2022-09-01T17:07:14,900+0530 [7048 1] com.newrelic INFO: Setting audit_mode to false
+2022-09-01T17:07:16,665+0530 [7048 1] com.newrelic INFO: New Relic Agent v7.8.0 has started
+2022-09-01T17:07:16,665+0530 [7048 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@5c5a1b69
+2022-09-01T17:07:16,667+0530 [7048 1] com.newrelic INFO: Premain startup complete in 24,213ms
+2022-09-01T17:07:28,259+0530 [7048 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.64
+2022-09-01T17:07:36,741+0530 [7048 38] com.newrelic INFO: Host name is DESKTOP-N47AVTT, display host DESKTOP-N47AVTT for application nr-demo10
+2022-09-01T17:07:36,746+0530 [7048 38] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2022-09-01T17:07:40,364+0530 [7048 38] com.newrelic INFO: Collector redirection to collector-001.eu01.nr-data.net:443
+2022-09-01T17:07:43,065+0530 [7048 38] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2022-09-01T17:07:43,066+0530 [7048 38] com.newrelic INFO: Agent run id: BVJn_2q-AjfJADU0MRi74ihjEJnUAAIBAAAnIQEAABuIAgQYu-IlAwAFNy44LjAAD0RFU0tUT1AtTjQ3QVZUVAAJbnItZGVtbzEw
+2022-09-01T17:07:43,068+0530 [7048 38] com.newrelic INFO: Agent 7048@DESKTOP-N47AVTT/nr-demo10 connected to collector.eu01.nr-data.net:443
+2022-09-01T17:07:43,071+0530 [7048 38] com.newrelic INFO: Reporting to: https://rpm.eu.newrelic.com/accounts/3486769/applications/414966309
+2022-09-01T17:07:43,083+0530 [7048 38] com.newrelic INFO: Using region aware collector host: collector.eu01.nr-data.net
+2022-09-01T17:07:43,083+0530 [7048 38] com.newrelic INFO: Using region aware metric ingest URI: https://metric-api.eu.newrelic.com/metric/v1
+2022-09-01T17:07:43,083+0530 [7048 38] com.newrelic INFO: Using region aware event ingest URI: https://insights-collector.eu01.nr-data.net/v1/accounts/events
+2022-09-01T17:07:43,088+0530 [7048 38] com.newrelic INFO: Using region aware collector host: collector.eu01.nr-data.net
+2022-09-01T17:07:43,089+0530 [7048 38] com.newrelic INFO: Using region aware metric ingest URI: https://metric-api.eu.newrelic.com/metric/v1
+2022-09-01T17:07:43,089+0530 [7048 38] com.newrelic INFO: Using region aware event ingest URI: https://insights-collector.eu01.nr-data.net/v1/accounts/events
+2022-09-01T17:07:43,964+0530 [7048 38] com.newrelic INFO: Real user monitoring is enabled for application nr-demo10. Auto instrumentation is enabled.
+2022-09-01T17:07:43,965+0530 [7048 38] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2022-09-01T17:15:45,065+0530 [12208 1] com.newrelic INFO: Writing to New Relic log file: D:\parth\java-projects\nr-demo\src\main\java\com\example\nr\demo\newrelic\logs\newrelic_agent.log
+2022-09-01T17:15:45,068+0530 [12208 1] com.newrelic INFO: JRE vendor OpenLogic version 11.0.15
+2022-09-01T17:15:45,069+0530 [12208 1] com.newrelic INFO: JVM vendor OpenLogic OpenJDK 64-Bit Server VM version 11.0.15+10-adhoc..jdk11u
+2022-09-01T17:15:45,069+0530 [12208 1] com.newrelic INFO: OS Windows 10 version 10.0 arch amd64
+2022-09-01T17:15:45,069+0530 [12208 1] com.newrelic INFO: Agent Host: DESKTOP-N47AVTT IP: 192.168.59.1
+2022-09-01T17:15:45,069+0530 [12208 1] com.newrelic INFO: New Relic Agent v7.8.0 is initializing...
+2022-09-01T17:15:47,867+0530 [12208 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2022-09-01T17:15:59,341+0530 [12208 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.eu01.nr-data.net:443
+2022-09-01T17:16:01,161+0530 [12208 1] com.newrelic INFO: Setting audit_mode to false
+2022-09-01T17:16:01,982+0530 [12208 1] com.newrelic INFO: New Relic Agent v7.8.0 has started
+2022-09-01T17:16:01,982+0530 [12208 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@5c5a1b69
+2022-09-01T17:16:01,983+0530 [12208 1] com.newrelic INFO: Premain startup complete in 22,252ms
+2022-09-01T17:16:12,972+0530 [12208 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.64
+2022-09-01T17:16:22,020+0530 [12208 38] com.newrelic INFO: Host name is DESKTOP-N47AVTT, display host DESKTOP-N47AVTT for application nr-demo10
+2022-09-01T17:16:22,034+0530 [12208 38] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2022-09-01T17:16:25,127+0530 [12208 38] com.newrelic INFO: Collector redirection to collector-001.eu01.nr-data.net:443
+2022-09-01T17:16:27,880+0530 [12208 38] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2022-09-01T17:16:27,881+0530 [12208 38] com.newrelic INFO: Agent run id: BdiAgyXgVnzLADU0MRi74ihjEJvwAAIBAAAnIQEAAC-wAgQYu-IlAwAFNy44LjAAD0RFU0tUT1AtTjQ3QVZUVAAJbnItZGVtbzEw
+2022-09-01T17:16:27,884+0530 [12208 38] com.newrelic INFO: Agent 12208@DESKTOP-N47AVTT/nr-demo10 connected to collector.eu01.nr-data.net:443
+2022-09-01T17:16:27,886+0530 [12208 38] com.newrelic INFO: Reporting to: https://rpm.eu.newrelic.com/accounts/3486769/applications/414966309
+2022-09-01T17:16:27,892+0530 [12208 38] com.newrelic INFO: Using region aware collector host: collector.eu01.nr-data.net
+2022-09-01T17:16:27,892+0530 [12208 38] com.newrelic INFO: Using region aware metric ingest URI: https://metric-api.eu.newrelic.com/metric/v1
+2022-09-01T17:16:27,892+0530 [12208 38] com.newrelic INFO: Using region aware event ingest URI: https://insights-collector.eu01.nr-data.net/v1/accounts/events
+2022-09-01T17:16:27,900+0530 [12208 38] com.newrelic INFO: Using region aware collector host: collector.eu01.nr-data.net
+2022-09-01T17:16:27,901+0530 [12208 38] com.newrelic INFO: Using region aware metric ingest URI: https://metric-api.eu.newrelic.com/metric/v1
+2022-09-01T17:16:27,901+0530 [12208 38] com.newrelic INFO: Using region aware event ingest URI: https://insights-collector.eu01.nr-data.net/v1/accounts/events
+2022-09-01T17:16:28,944+0530 [12208 38] com.newrelic INFO: Real user monitoring is enabled for application nr-demo10. Auto instrumentation is enabled.
+2022-09-01T17:16:28,948+0530 [12208 38] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2022-09-01T17:27:07,542+0530 [10248 1] com.newrelic INFO: Writing to New Relic log file: D:\parth\java-projects\nr-demo\src\main\java\com\example\nr\demo\newrelic\logs\newrelic_agent.log
+2022-09-01T17:27:07,544+0530 [10248 1] com.newrelic INFO: JRE vendor OpenLogic version 11.0.15
+2022-09-01T17:27:07,545+0530 [10248 1] com.newrelic INFO: JVM vendor OpenLogic OpenJDK 64-Bit Server VM version 11.0.15+10-adhoc..jdk11u
+2022-09-01T17:27:07,545+0530 [10248 1] com.newrelic INFO: OS Windows 10 version 10.0 arch amd64
+2022-09-01T17:27:07,546+0530 [10248 1] com.newrelic INFO: Agent Host: DESKTOP-N47AVTT IP: 192.168.59.1
+2022-09-01T17:27:07,546+0530 [10248 1] com.newrelic INFO: New Relic Agent v7.8.0 is initializing...
+2022-09-01T17:27:10,106+0530 [10248 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2022-09-01T17:27:21,875+0530 [10248 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.eu01.nr-data.net:443
+2022-09-01T17:27:22,718+0530 [10248 1] com.newrelic INFO: Setting audit_mode to false
+2022-09-01T17:27:23,326+0530 [10248 1] com.newrelic INFO: New Relic Agent v7.8.0 has started
+2022-09-01T17:27:23,326+0530 [10248 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@5c5a1b69
+2022-09-01T17:27:23,327+0530 [10248 1] com.newrelic INFO: Premain startup complete in 19,243ms
+2022-09-01T17:27:33,283+0530 [10248 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.64
+2022-09-01T17:27:38,370+0530 [10248 38] com.newrelic INFO: Host name is DESKTOP-N47AVTT, display host DESKTOP-N47AVTT for application nr-demo10
+2022-09-01T17:27:38,376+0530 [10248 38] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2022-09-01T17:27:41,542+0530 [10248 38] com.newrelic INFO: Collector redirection to collector-001.eu01.nr-data.net:443
+2022-09-01T17:27:44,173+0530 [10248 38] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2022-09-01T17:27:44,174+0530 [10248 38] com.newrelic INFO: Agent run id: BZfMsu31l45VADU0MRi74ihjEJ6EAAIBAAAnIQEAACgIAgQYu-IlAwAFNy44LjAAD0RFU0tUT1AtTjQ3QVZUVAAJbnItZGVtbzEw
+2022-09-01T17:27:44,176+0530 [10248 38] com.newrelic INFO: Agent 10248@DESKTOP-N47AVTT/nr-demo10 connected to collector.eu01.nr-data.net:443
+2022-09-01T17:27:44,177+0530 [10248 38] com.newrelic INFO: Reporting to: https://rpm.eu.newrelic.com/accounts/3486769/applications/414966309
+2022-09-01T17:27:44,181+0530 [10248 38] com.newrelic INFO: Using region aware collector host: collector.eu01.nr-data.net
+2022-09-01T17:27:44,181+0530 [10248 38] com.newrelic INFO: Using region aware metric ingest URI: https://metric-api.eu.newrelic.com/metric/v1
+2022-09-01T17:27:44,181+0530 [10248 38] com.newrelic INFO: Using region aware event ingest URI: https://insights-collector.eu01.nr-data.net/v1/accounts/events
+2022-09-01T17:27:44,186+0530 [10248 38] com.newrelic INFO: Using region aware collector host: collector.eu01.nr-data.net
+2022-09-01T17:27:44,186+0530 [10248 38] com.newrelic INFO: Using region aware metric ingest URI: https://metric-api.eu.newrelic.com/metric/v1
+2022-09-01T17:27:44,186+0530 [10248 38] com.newrelic INFO: Using region aware event ingest URI: https://insights-collector.eu01.nr-data.net/v1/accounts/events
+2022-09-01T17:27:45,049+0530 [10248 38] com.newrelic INFO: Real user monitoring is enabled for application nr-demo10. Auto instrumentation is enabled.
+2022-09-01T17:27:45,050+0530 [10248 38] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2022-09-01T18:11:11,082+0530 [8096 1] com.newrelic INFO: Writing to New Relic log file: D:\parth\java-projects\nr-demo\src\main\java\com\example\nr\demo\newrelic\logs\newrelic_agent.log
+2022-09-01T18:11:11,084+0530 [8096 1] com.newrelic INFO: JRE vendor OpenLogic version 11.0.15
+2022-09-01T18:11:11,084+0530 [8096 1] com.newrelic INFO: JVM vendor OpenLogic OpenJDK 64-Bit Server VM version 11.0.15+10-adhoc..jdk11u
+2022-09-01T18:11:11,085+0530 [8096 1] com.newrelic INFO: OS Windows 10 version 10.0 arch amd64
+2022-09-01T18:11:11,086+0530 [8096 1] com.newrelic INFO: Agent Host: DESKTOP-N47AVTT IP: 192.168.59.1
+2022-09-01T18:11:11,087+0530 [8096 1] com.newrelic INFO: New Relic Agent v7.8.0 is initializing...
+2022-09-01T18:11:13,316+0530 [8096 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2022-09-01T18:11:24,450+0530 [8096 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.eu01.nr-data.net:443
+2022-09-01T18:11:26,320+0530 [8096 1] com.newrelic INFO: Setting audit_mode to false
+2022-09-01T18:11:26,887+0530 [8096 1] com.newrelic INFO: New Relic Agent v7.8.0 has started
+2022-09-01T18:11:26,888+0530 [8096 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@5c5a1b69
+2022-09-01T18:11:26,889+0530 [8096 1] com.newrelic INFO: Premain startup complete in 19,030ms
+2022-09-01T18:11:39,810+0530 [8096 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.64
+2022-09-01T18:11:47,006+0530 [8096 38] com.newrelic INFO: Host name is DESKTOP-N47AVTT, display host DESKTOP-N47AVTT for application nr-demo10
+2022-09-01T18:11:47,010+0530 [8096 38] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2022-09-01T18:11:50,394+0530 [8096 38] com.newrelic INFO: Collector redirection to collector-001.eu01.nr-data.net:443
+2022-09-01T18:11:53,216+0530 [8096 38] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2022-09-01T18:11:53,216+0530 [8096 38] com.newrelic INFO: Agent run id: BdXDlmCR-tAxADU0MRi74ihjEKjUAAIBAAAnIQEAAB-gAgQYu-IlAwAFNy44LjAAD0RFU0tUT1AtTjQ3QVZUVAAJbnItZGVtbzEw
+2022-09-01T18:11:53,218+0530 [8096 38] com.newrelic INFO: Agent 8096@DESKTOP-N47AVTT/nr-demo10 connected to collector.eu01.nr-data.net:443
+2022-09-01T18:11:53,219+0530 [8096 38] com.newrelic INFO: Reporting to: https://rpm.eu.newrelic.com/accounts/3486769/applications/414966309
+2022-09-01T18:11:53,223+0530 [8096 38] com.newrelic INFO: Using region aware collector host: collector.eu01.nr-data.net
+2022-09-01T18:11:53,223+0530 [8096 38] com.newrelic INFO: Using region aware metric ingest URI: https://metric-api.eu.newrelic.com/metric/v1
+2022-09-01T18:11:53,223+0530 [8096 38] com.newrelic INFO: Using region aware event ingest URI: https://insights-collector.eu01.nr-data.net/v1/accounts/events
+2022-09-01T18:11:53,229+0530 [8096 38] com.newrelic INFO: Using region aware collector host: collector.eu01.nr-data.net
+2022-09-01T18:11:53,229+0530 [8096 38] com.newrelic INFO: Using region aware metric ingest URI: https://metric-api.eu.newrelic.com/metric/v1
+2022-09-01T18:11:53,229+0530 [8096 38] com.newrelic INFO: Using region aware event ingest URI: https://insights-collector.eu01.nr-data.net/v1/accounts/events
+2022-09-01T18:11:54,101+0530 [8096 38] com.newrelic INFO: Real user monitoring is enabled for application nr-demo10. Auto instrumentation is enabled.
+2022-09-01T18:11:54,103+0530 [8096 38] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2022-09-01T18:31:51,372+0530 [11868 1] com.newrelic INFO: Writing to New Relic log file: D:\parth\java-projects\nr-demo\src\main\java\com\example\nr\demo\newrelic\logs\newrelic_agent.log
+2022-09-01T18:31:51,373+0530 [11868 1] com.newrelic INFO: JRE vendor OpenLogic version 11.0.15
+2022-09-01T18:31:51,373+0530 [11868 1] com.newrelic INFO: JVM vendor OpenLogic OpenJDK 64-Bit Server VM version 11.0.15+10-adhoc..jdk11u
+2022-09-01T18:31:51,373+0530 [11868 1] com.newrelic INFO: OS Windows 10 version 10.0 arch amd64
+2022-09-01T18:31:51,373+0530 [11868 1] com.newrelic INFO: Agent Host: DESKTOP-N47AVTT IP: 192.168.59.1
+2022-09-01T18:31:51,374+0530 [11868 1] com.newrelic INFO: New Relic Agent v7.8.0 is initializing...
+2022-09-01T18:31:53,767+0530 [11868 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2022-09-01T18:32:04,081+0530 [11868 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.eu01.nr-data.net:443
+2022-09-01T18:32:05,073+0530 [11868 1] com.newrelic INFO: Setting audit_mode to false
+2022-09-01T18:32:05,707+0530 [11868 1] com.newrelic INFO: New Relic Agent v7.8.0 has started
+2022-09-01T18:32:05,708+0530 [11868 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@5c5a1b69
+2022-09-01T18:32:05,708+0530 [11868 1] com.newrelic INFO: Premain startup complete in 17,570ms
+2022-09-01T18:32:16,039+0530 [11868 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.64
+2022-09-01T18:32:20,792+0530 [11868 38] com.newrelic INFO: Host name is DESKTOP-N47AVTT, display host DESKTOP-N47AVTT for application nr-demo10
+2022-09-01T18:32:20,796+0530 [11868 38] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2022-09-01T18:32:23,856+0530 [11868 38] com.newrelic INFO: Collector redirection to collector-001.eu01.nr-data.net:443
+2022-09-01T18:32:26,411+0530 [11868 38] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2022-09-01T18:32:26,411+0530 [11868 38] com.newrelic INFO: Agent run id: BbzY8baT8pTEADU0MRi74ihjEK3AAAIBAAAnIQEAAC5cAgQYu-IlAwAFNy44LjAAD0RFU0tUT1AtTjQ3QVZUVAAJbnItZGVtbzEw
+2022-09-01T18:32:26,413+0530 [11868 38] com.newrelic INFO: Agent 11868@DESKTOP-N47AVTT/nr-demo10 connected to collector.eu01.nr-data.net:443
+2022-09-01T18:32:26,415+0530 [11868 38] com.newrelic INFO: Reporting to: https://rpm.eu.newrelic.com/accounts/3486769/applications/414966309
+2022-09-01T18:32:26,427+0530 [11868 38] com.newrelic INFO: Using region aware collector host: collector.eu01.nr-data.net
+2022-09-01T18:32:26,427+0530 [11868 38] com.newrelic INFO: Using region aware metric ingest URI: https://metric-api.eu.newrelic.com/metric/v1
+2022-09-01T18:32:26,427+0530 [11868 38] com.newrelic INFO: Using region aware event ingest URI: https://insights-collector.eu01.nr-data.net/v1/accounts/events
+2022-09-01T18:32:26,433+0530 [11868 38] com.newrelic INFO: Using region aware collector host: collector.eu01.nr-data.net
+2022-09-01T18:32:26,433+0530 [11868 38] com.newrelic INFO: Using region aware metric ingest URI: https://metric-api.eu.newrelic.com/metric/v1
+2022-09-01T18:32:26,434+0530 [11868 38] com.newrelic INFO: Using region aware event ingest URI: https://insights-collector.eu01.nr-data.net/v1/accounts/events
+2022-09-01T18:32:27,272+0530 [11868 38] com.newrelic INFO: Real user monitoring is enabled for application nr-demo10. Auto instrumentation is enabled.
+2022-09-01T18:32:27,275+0530 [11868 38] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2022-09-01T20:35:57,989+0530 [6464 1] com.newrelic INFO: Writing to New Relic log file: D:\parth\java-projects\nr-demo\src\main\java\com\example\nr\demo\newrelic\logs\newrelic_agent.log
+2022-09-01T20:35:57,990+0530 [6464 1] com.newrelic INFO: JRE vendor OpenLogic version 11.0.15
+2022-09-01T20:35:57,990+0530 [6464 1] com.newrelic INFO: JVM vendor OpenLogic OpenJDK 64-Bit Server VM version 11.0.15+10-adhoc..jdk11u
+2022-09-01T20:35:57,990+0530 [6464 1] com.newrelic INFO: OS Windows 10 version 10.0 arch amd64
+2022-09-01T20:35:57,990+0530 [6464 1] com.newrelic INFO: Agent Host: DESKTOP-N47AVTT IP: 192.168.59.1
+2022-09-01T20:35:57,991+0530 [6464 1] com.newrelic INFO: New Relic Agent v7.8.0 is initializing...
+2022-09-01T20:36:00,146+0530 [6464 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2022-09-01T20:36:10,054+0530 [6464 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.eu01.nr-data.net:443
+2022-09-01T20:36:10,858+0530 [6464 1] com.newrelic INFO: Setting audit_mode to false
+2022-09-01T20:36:11,333+0530 [6464 1] com.newrelic INFO: New Relic Agent v7.8.0 has started
+2022-09-01T20:36:11,334+0530 [6464 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@5c5a1b69
+2022-09-01T20:36:11,334+0530 [6464 1] com.newrelic INFO: Premain startup complete in 16,695ms
+2022-09-01T20:36:18,894+0530 [6464 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.64
+2022-09-01T20:36:26,350+0530 [6464 38] com.newrelic INFO: Host name is DESKTOP-N47AVTT, display host DESKTOP-N47AVTT for application nr-demo10
+2022-09-01T20:36:26,352+0530 [6464 38] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2022-09-01T20:36:29,607+0530 [6464 38] com.newrelic INFO: Collector redirection to collector-001.eu01.nr-data.net:443
+2022-09-01T20:36:32,388+0530 [6464 38] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2022-09-01T20:36:32,388+0530 [6464 38] com.newrelic INFO: Agent run id: BV2LIeHUZRfvADU0MRi74ihjEMrQAAIBAAAnIQEAABlAAgQYu-IlAwAFNy44LjAAD0RFU0tUT1AtTjQ3QVZUVAAJbnItZGVtbzEw
+2022-09-01T20:36:32,390+0530 [6464 38] com.newrelic INFO: Agent 6464@DESKTOP-N47AVTT/nr-demo10 connected to collector.eu01.nr-data.net:443
+2022-09-01T20:36:32,392+0530 [6464 38] com.newrelic INFO: Reporting to: https://rpm.eu.newrelic.com/accounts/3486769/applications/414966309
+2022-09-01T20:36:32,395+0530 [6464 38] com.newrelic INFO: Using region aware collector host: collector.eu01.nr-data.net
+2022-09-01T20:36:32,395+0530 [6464 38] com.newrelic INFO: Using region aware metric ingest URI: https://metric-api.eu.newrelic.com/metric/v1
+2022-09-01T20:36:32,395+0530 [6464 38] com.newrelic INFO: Using region aware event ingest URI: https://insights-collector.eu01.nr-data.net/v1/accounts/events
+2022-09-01T20:36:32,400+0530 [6464 38] com.newrelic INFO: Using region aware collector host: collector.eu01.nr-data.net
+2022-09-01T20:36:32,400+0530 [6464 38] com.newrelic INFO: Using region aware metric ingest URI: https://metric-api.eu.newrelic.com/metric/v1
+2022-09-01T20:36:32,401+0530 [6464 38] com.newrelic INFO: Using region aware event ingest URI: https://insights-collector.eu01.nr-data.net/v1/accounts/events
+2022-09-01T20:36:33,255+0530 [6464 38] com.newrelic INFO: Real user monitoring is enabled for application nr-demo10. Auto instrumentation is enabled.
+2022-09-01T20:36:33,256+0530 [6464 38] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2022-09-01T20:37:22,625+0530 [10372 1] com.newrelic INFO: Writing to New Relic log file: D:\parth\java-projects\nr-demo\src\main\java\com\example\nr\demo\newrelic\logs\newrelic_agent.log
+2022-09-01T20:37:22,626+0530 [10372 1] com.newrelic INFO: JRE vendor OpenLogic version 11.0.15
+2022-09-01T20:37:22,627+0530 [10372 1] com.newrelic INFO: JVM vendor OpenLogic OpenJDK 64-Bit Server VM version 11.0.15+10-adhoc..jdk11u
+2022-09-01T20:37:22,627+0530 [10372 1] com.newrelic INFO: OS Windows 10 version 10.0 arch amd64
+2022-09-01T20:37:22,627+0530 [10372 1] com.newrelic INFO: Agent Host: DESKTOP-N47AVTT IP: 192.168.59.1
+2022-09-01T20:37:22,628+0530 [10372 1] com.newrelic INFO: New Relic Agent v7.8.0 is initializing...
+2022-09-01T20:37:25,199+0530 [10372 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2022-09-01T20:37:35,644+0530 [10372 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.eu01.nr-data.net:443
+2022-09-01T20:37:36,502+0530 [10372 1] com.newrelic INFO: Setting audit_mode to false
+2022-09-01T20:37:37,131+0530 [10372 1] com.newrelic INFO: New Relic Agent v7.8.0 has started
+2022-09-01T20:37:37,131+0530 [10372 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@5c5a1b69
+2022-09-01T20:37:37,132+0530 [10372 1] com.newrelic INFO: Premain startup complete in 18,972ms
+2022-09-01T20:38:01,069+0530 [11836 1] com.newrelic INFO: Writing to New Relic log file: D:\parth\java-projects\nr-demo\src\main\java\com\example\nr\demo\newrelic\logs\newrelic_agent.log
+2022-09-01T20:38:01,070+0530 [11836 1] com.newrelic INFO: JRE vendor OpenLogic version 11.0.15
+2022-09-01T20:38:01,071+0530 [11836 1] com.newrelic INFO: JVM vendor OpenLogic OpenJDK 64-Bit Server VM version 11.0.15+10-adhoc..jdk11u
+2022-09-01T20:38:01,071+0530 [11836 1] com.newrelic INFO: OS Windows 10 version 10.0 arch amd64
+2022-09-01T20:38:01,071+0530 [11836 1] com.newrelic INFO: Agent Host: DESKTOP-N47AVTT IP: 192.168.59.1
+2022-09-01T20:38:01,071+0530 [11836 1] com.newrelic INFO: New Relic Agent v7.8.0 is initializing...
+2022-09-01T20:38:03,811+0530 [11836 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2022-09-01T20:38:14,157+0530 [11836 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.eu01.nr-data.net:443
+2022-09-01T20:38:14,910+0530 [11836 1] com.newrelic INFO: Setting audit_mode to false
+2022-09-01T20:38:15,397+0530 [11836 1] com.newrelic INFO: New Relic Agent v7.8.0 has started
+2022-09-01T20:38:15,397+0530 [11836 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@5c5a1b69
+2022-09-01T20:38:15,399+0530 [11836 1] com.newrelic INFO: Premain startup complete in 17,669ms
+2022-09-01T20:38:23,895+0530 [11836 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.64
+2022-09-01T20:38:30,427+0530 [11836 38] com.newrelic INFO: Host name is DESKTOP-N47AVTT, display host DESKTOP-N47AVTT for application nr-demo10
+2022-09-01T20:38:30,430+0530 [11836 38] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2022-09-01T20:38:34,318+0530 [11836 38] com.newrelic INFO: Collector redirection to collector-001.eu01.nr-data.net:443
+2022-09-01T20:38:37,105+0530 [11836 38] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2022-09-01T20:38:37,105+0530 [11836 38] com.newrelic INFO: Agent run id: BU_GSIfMb09NADU0MRi74ihjEMtIAAIBAAAnIQEAAC48AgQYu-IlAwAFNy44LjAAD0RFU0tUT1AtTjQ3QVZUVAAJbnItZGVtbzEw
+2022-09-01T20:38:37,107+0530 [11836 38] com.newrelic INFO: Agent 11836@DESKTOP-N47AVTT/nr-demo10 connected to collector.eu01.nr-data.net:443
+2022-09-01T20:38:37,108+0530 [11836 38] com.newrelic INFO: Reporting to: https://rpm.eu.newrelic.com/accounts/3486769/applications/414966309
+2022-09-01T20:38:37,114+0530 [11836 38] com.newrelic INFO: Using region aware collector host: collector.eu01.nr-data.net
+2022-09-01T20:38:37,114+0530 [11836 38] com.newrelic INFO: Using region aware metric ingest URI: https://metric-api.eu.newrelic.com/metric/v1
+2022-09-01T20:38:37,115+0530 [11836 38] com.newrelic INFO: Using region aware event ingest URI: https://insights-collector.eu01.nr-data.net/v1/accounts/events
+2022-09-01T20:38:37,122+0530 [11836 38] com.newrelic INFO: Using region aware collector host: collector.eu01.nr-data.net
+2022-09-01T20:38:37,122+0530 [11836 38] com.newrelic INFO: Using region aware metric ingest URI: https://metric-api.eu.newrelic.com/metric/v1
+2022-09-01T20:38:37,122+0530 [11836 38] com.newrelic INFO: Using region aware event ingest URI: https://insights-collector.eu01.nr-data.net/v1/accounts/events
+2022-09-01T20:38:38,061+0530 [11836 38] com.newrelic INFO: Real user monitoring is enabled for application nr-demo10. Auto instrumentation is enabled.
+2022-09-01T20:38:38,062+0530 [11836 38] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2022-09-01T21:57:01,323+0530 [7620 1] com.newrelic INFO: Writing to New Relic log file: D:\parth\java-projects\nr-demo\src\main\java\com\example\nr\demo\newrelic\logs\newrelic_agent.log
+2022-09-01T21:57:01,325+0530 [7620 1] com.newrelic INFO: JRE vendor OpenLogic version 11.0.15
+2022-09-01T21:57:01,325+0530 [7620 1] com.newrelic INFO: JVM vendor OpenLogic OpenJDK 64-Bit Server VM version 11.0.15+10-adhoc..jdk11u
+2022-09-01T21:57:01,325+0530 [7620 1] com.newrelic INFO: OS Windows 10 version 10.0 arch amd64
+2022-09-01T21:57:01,326+0530 [7620 1] com.newrelic INFO: Agent Host: DESKTOP-N47AVTT IP: 192.168.59.1
+2022-09-01T21:57:01,326+0530 [7620 1] com.newrelic INFO: New Relic Agent v7.8.0 is initializing...
+2022-09-01T21:57:03,679+0530 [7620 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2022-09-01T21:57:13,912+0530 [7620 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.eu01.nr-data.net:443
+2022-09-01T21:57:14,718+0530 [7620 1] com.newrelic INFO: Setting audit_mode to false
+2022-09-01T21:57:15,154+0530 [7620 1] com.newrelic INFO: New Relic Agent v7.8.0 has started
+2022-09-01T21:57:15,154+0530 [7620 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@5c5a1b69
+2022-09-01T21:57:15,155+0530 [7620 1] com.newrelic INFO: Premain startup complete in 17,354ms
+2022-09-01T21:57:23,147+0530 [7620 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.64
+2022-09-01T21:57:30,183+0530 [7620 38] com.newrelic INFO: Host name is DESKTOP-N47AVTT, display host DESKTOP-N47AVTT for application nr-demo10
+2022-09-01T21:57:30,185+0530 [7620 38] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2022-09-01T21:57:33,659+0530 [7620 38] com.newrelic INFO: Collector redirection to collector-001.eu01.nr-data.net:443
+2022-09-01T21:57:36,595+0530 [7620 38] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2022-09-01T21:57:36,595+0530 [7620 38] com.newrelic INFO: Agent run id: BfLPmpL7FpHwADU0MRi74ihjEN3MAAIBAAAnIQEAAB3EAgQYu-IlAwAFNy44LjAAD0RFU0tUT1AtTjQ3QVZUVAAJbnItZGVtbzEw
+2022-09-01T21:57:36,597+0530 [7620 38] com.newrelic INFO: Agent 7620@DESKTOP-N47AVTT/nr-demo10 connected to collector.eu01.nr-data.net:443
+2022-09-01T21:57:36,598+0530 [7620 38] com.newrelic INFO: Reporting to: https://rpm.eu.newrelic.com/accounts/3486769/applications/414966309
+2022-09-01T21:57:36,602+0530 [7620 38] com.newrelic INFO: Using region aware collector host: collector.eu01.nr-data.net
+2022-09-01T21:57:36,602+0530 [7620 38] com.newrelic INFO: Using region aware metric ingest URI: https://metric-api.eu.newrelic.com/metric/v1
+2022-09-01T21:57:36,602+0530 [7620 38] com.newrelic INFO: Using region aware event ingest URI: https://insights-collector.eu01.nr-data.net/v1/accounts/events
+2022-09-01T21:57:36,607+0530 [7620 38] com.newrelic INFO: Using region aware collector host: collector.eu01.nr-data.net
+2022-09-01T21:57:36,607+0530 [7620 38] com.newrelic INFO: Using region aware metric ingest URI: https://metric-api.eu.newrelic.com/metric/v1
+2022-09-01T21:57:36,607+0530 [7620 38] com.newrelic INFO: Using region aware event ingest URI: https://insights-collector.eu01.nr-data.net/v1/accounts/events
+2022-09-01T21:57:37,496+0530 [7620 38] com.newrelic INFO: Real user monitoring is enabled for application nr-demo10. Auto instrumentation is enabled.
+2022-09-01T21:57:37,496+0530 [7620 38] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.

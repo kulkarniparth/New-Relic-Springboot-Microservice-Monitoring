@@ -1,0 +1,12 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,metrics,info
+  metrics:
+    export:
+      newrelic:
+        api-key: ${NEW_RELIC_LICENSE_KEY}
+        app-name: ${NEW_RELIC_APP_NAME}
+        uri: ${NEW_RELIC_INGEST_URI}
+        step: ${NEW_RELIC_INGEST_STEP}
